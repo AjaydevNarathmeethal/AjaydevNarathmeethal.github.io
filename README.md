@@ -1,2 +1,3 @@
-# AjaydevNarathmeethal.github.io
-Portfolio
+# Projects
+- Project 1
+- Project 2
