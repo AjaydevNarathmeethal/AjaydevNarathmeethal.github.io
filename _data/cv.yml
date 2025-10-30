@@ -1,4 +1,4 @@
-- title: General Information
+- title: Profile
   type: map
   contents:
     - name: Full Name
@@ -13,7 +13,7 @@
   contents:
     - title: PhD
       institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      year: "Dec 1905 -<br>Dec 1907"
       description:
         - Description 1.
         - Description 2.
