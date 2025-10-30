@@ -1,97 +1,127 @@
 - title: Profile
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Ajaydev Narathmeethal
+    - name: Email
+      value: ajaydev.narathmeethal@gmail.com
+    - name: Phone
+      value: 517-348-6268
+    - name: Linkedin
+      value: <a href="https://www.linkedin.com/in/ajaydevnarathmeethal/">www.linkedin.com/in/ajaydevnarathmeethal</a>
+    - name: Summary
+      value: I am a Data Scientist focusing on Artificial Intelligence and cloud framework to solve business solutions.
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Business Data Science Analytics Project Intern
+      institution: Russell Palmer Career Management Center, MSU
+      year: "Jul 2025 - <br>Aug 2025"
+      location: East Lansing, MI
+      description:
+        - Transformed complex, unstructured data by executing a multi-step process that included cleaning, standardizing, and merging career center engagement and job offer data to establish a clean foundation for advanced analytics.
+        - Performed in-depth analysis of cleaned student data, <b>uncovering key trends in student engagement, correlations between career center engagement and job offers to provide strategic insights for future program design.</b>
+        - <b>Created data visualizations using Seaborn and developed a presentation deck</b> to effectively communicate key analysis results and strategic recommendations to higher management.
+
+    - title: Sr. Data Analyst 
+      institution: Hexagon AB
+      year: 2020-2024
+      location: Hyderabad, India
+      description:
+      - Wrote advanced T-SQL queries to efficiently extract, transform, and analyze large datasets from Azure Data Lake storage cloud, for driving actionable insights on and <b>enhancing reporting processes and efficiency by 43%.</b>
+      - <b>Implemented robust data quality checks</b> to detect anomalies and null values, ensuring data integrity across all sources.
+      - Optimized SQL queries and indexing strategies on PostgreSQL and Redshift, <b>improving database performance by 27% and reducing costs by estimated $900 per month.</b>
+      - Utilized advanced SQL techniques including indexing, query plan analysis, and table partitioning to <b>significantly enhance query performance and reduce execution time by 32% when working with large-scale datasets containing over 10 million rows.</b>
+      - <b>Developed automated scripts using Python</b> to streamline data cleaning and preprocessing of large-scale datasets exceeding 10 million records, <b>significantly improving data integrity and reducing manual effort by 54%.</b>
+      - Utilized Pandas in conjunction with Matplotlib and Seaborn to conduct detailed exploratory data analysis (EDA), uncovering key trends and producing insightful visual summaries of business metrics for impactful stakeholder reporting.
+
+
+    - title: Project Management Engineer
+      institution: Larsen & Toubro	Ltd.
+      year: 2019 - 2020
+      location: Coimbatore, India
+      description:
+        - Created interactive Power BI dashboards by integrating Excel and SQL data from supply chain and production teams, uncovering downtime trends and <b>contributing to a 26% improvement in overall operational efficiency through data-driven insights.</b>
+        - Developed and implemented 15+ Power Automate workflows on SharePoint, streamlining repetitive tasks like document approvals and saving an estimated 200 hours per month across multiple departments.
+        - Implemented an automated, collaborative tracking system for raw materials and components in valve production, <b>streamlining end-to-end supply chain operations and reducing wait times by 31% through enhanced cross-functional visibility.</b>
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: "Dec 1905 -<br>Dec 1907"
+    - title: Master of Science - Data Science & Analytics 
+      institution: Michigan State University
+      year: Dec 2025
+      location: East Lansing, MI
+      description:   
+        - >     
+          <code>Principal Component Analysis</code> |
+          <code>Convolutional Neural Networks</code> |
+          <code>RAG</code> |
+          <code>Python</code>|
+          <code>SQL</code>
+    - title: Bachelog of Technology - Mechanincal Engineering
+      institution: National Institute of Technology Karnataka
+      year: May 2019
+      location: Surathkal, India
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - >
+          <code>Vector Calculus </code> | <code>Multivariate Statistical Analysis </code> |
+          <code>Matrix Computations </code> | <code>Feedback Control Theory </code> | <code>Fourier Transformations</code>
+          
 
-- title: Experience
+
+- title: Projects
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://github.com/AjaydevNarathmeethal/ALPR_system">OpenCV - Automatic License plate detection</a>
+      year: 2025
+      description: Automatic License Plate Recognition (ALPR) System for live video using OpenCV
+    - title: <a href="https://github.com/AjaydevNarathmeethal/Credit-Card-Fraud-Detection/">Credit Card fraud detection</a>
+      year: 2025
+      description: System to detect fraudulant credit card tranasactions    
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Certifications
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: "The Complete Python Developer - Udemy"
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "<b>Credential ID:</b> UC-16b734d5-bb18-4e68-a728-24bbc6e6cc73"
+    - title: 'Statistics for Business Analytics and Data Science A-Z - Udemy'
       items:
-        - Description 1.
-        - Description 2.
+        - "<b>Credential ID:</b> UC-16b734d5-bb18-4e68-a728-24bbc6e6cc73"
+    - title: "The Complete SQL bootcamp: GO from Zero to Hero - Udemy"
+      items:
+        - "<b>Credential ID:</b> UC-047f5545-0b86-4e9b-9ad8-8b2a1fc2d62e/"
+        
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

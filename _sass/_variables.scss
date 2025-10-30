@@ -1,41 +1,42 @@
 /*******************************************************************************
- * Variables used throughout the theme.
- * To adjust anything, simply edit the variables below and rebuild the theme.
- ******************************************************************************/
+ * Modern Variables for AI Engineer Portfolio
+ *******************************************************************************/
 
 @use "sass:color";
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
-
-$grey-color: #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
-
+// Base Neutrals
 $white-color: #ffffff !default;
-$black-color: #000000 !default;
+$black-color: #111827 !default; // Dark charcoal
+$grey-color: #6B7280 !default; // Cool muted gray
+$grey-color-light: #F3F4F6 !default; // For light mode backgrounds/text
+$grey-color-dark: #0F172A !default; // Dark navy for dark mode backgrounds
+$grey-900: #1E293B !default; // Card background in dark mode
 
-// Theme colors
+// Accent Colors (Primary)
+$purple-color: #6366F1 !default; // Indigo (light theme)
+$cyan-color: #818CF8 !default;   // Soft light indigo (dark theme)
 
+// Alerts & Semantic Colors
+$red-color: #EF4444 !default;
+$red-color-dark: #B91C1C !default;
+$orange-color: #F97316 !default;
+$blue-color: #3B82F6 !default;
+$blue-color-dark: #1D4ED8 !default;
+$cyan-color: #06B6D4 !default; // Override: stronger cyan
+$green-color: #22C55E !default;
+$green-color-lime: #A3E635 !default;
+$green-color-dark: #15803D !default;
+$green-color-light: #DCFCE7 !default;
+$green-color-bright: #10B981 !default;
+
+$pink-color: #EC4899 !default;
+$pink-color-light: #FCE7F3 !default;
+
+$yellow-color: #EAB308 !default;
+
+// Code Backgrounds
 $code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-dark: #1E293B !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

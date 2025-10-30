@@ -9,7 +9,7 @@ FROM ruby:slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
-LABEL authors="Amir Pourmand,George Araújo" \
+LABEL authors="Amir Pourmand,George" \
       description="Docker image for al-folio academic template" \
       maintainer="Amir Pourmand"
 
