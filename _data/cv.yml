@@ -80,7 +80,7 @@
       description: Automatic License Plate Recognition (ALPR) System for live video using OpenCV
     - title: <a href="https://github.com/AjaydevNarathmeethal/Credit-Card-Fraud-Detection/">Credit Card fraud detection</a>
       year: 2025
-      description: System to detect fraudulant credit card tranasactions    
+      description: System to detect fraudulant credit card tranasactions.   
 
 - title: Certifications
   type: nested_list
