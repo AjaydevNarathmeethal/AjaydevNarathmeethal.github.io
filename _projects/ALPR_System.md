@@ -2,8 +2,8 @@
 layout: page
 title: OpenCV - ALPR System
 description: Automatic License Plate Recognition (ALPR) System using OpenCV
-img: assets/img/proj_ALPR/004.jpg
-importance: 1
+img: assets/img/proj_ALPR/003.jpg
+importance: 2
 category: work
 related_publications: false
 ---

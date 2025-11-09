@@ -2,7 +2,7 @@
 layout: page
 title: Credit Card Fraud Detection
 description: A system to capture fraudulant credit card tranasactions
-img: assets/img/proj_credit_card_fraud/001.jpg
+img: assets/img/proj_credit_card_fraud/1.png
 importance: 2
 category: work
 related_publications: false
