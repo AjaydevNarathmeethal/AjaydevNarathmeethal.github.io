@@ -68,7 +68,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-opencv-alpr-system",
+          section: "News",},{id: "projects-hybrid-ai-for-retail-product-categorization",
+          title: 'Hybrid AI for Retail Product Categorization',
+          description: "A hybrid LLM + rule-based system for large-scale retail product classification, focused on the Food sector.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AI_Product_Classifier/";
+            },},{id: "projects-opencv-alpr-system",
           title: 'OpenCV - ALPR System',
           description: "Automatic License Plate Recognition (ALPR) System using OpenCV",
           section: "Projects",handler: () => {
