@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Full-Stack AI Engineer | Bridging the Gap Between AI Innovation & Enterprise Scale
 
 profile:
   align: right
@@ -27,12 +28,65 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a data scientist with a passion for leveraging AI and advanced analytics to drive smarter business decisions. My journey into data began in an unexpected place, mechanical engineering. During my undergraduate studies, I developed a solid foundation in vector calculus, multivariate analysis, and control theory, all of which laid the groundwork for my analytical mindset. Outside the classroom, I led the powertrain division of an intercollegiate [off-road racing team](https://www.instagram.com/bajanitkracing/) and honed my coding skills through robotics competitions.
+I am a **Full-Stack AI Engineer** dedicated to building, deploying, and scaling production-grade artificial intelligence systems. My expertise bridges the gap between complex AI/ML model architecture and robust data engineering infrastructure. I specialize in designing end-to-end solutions—from streaming data pipelines to containerized model deployment and MLOps.
 
-My professional career started in manufacturing, where I served as a project management engineer at a [global valve manufacturer](https://www.lntvalves.com/). There, I introduced data-driven solutions; building Power BI dashboards and automating workflows that improved operational efficiency by over 25% and saved hundreds of work hours monthly.
+My engineering journey began with a foundation in rigorous mathematical modeling and control systems. I quickly realized that the true potential of automated systems lies in data, leading me to pivot into data infrastructure and advanced analytics. Early in my career at **Larsen & Toubro**, I built critical data models and deployed predictive time-series architectures (like LSTMs) that drove hundreds of thousands of dollars in operational savings.
 
-Later, as a data analyst at [Hexagon AB](https://hexagon.com/), I worked extensively with SQL, Python, and cloud platforms like Azure and Redshift. I optimized large-scale databases, implemented data quality checks, and developed automated preprocessing pipelines for datasets exceeding 10 million records. My work directly enhanced reporting efficiency, data reliability, and reduced system costs.
+Most recently, as a Senior Engineer/Scientist at **Hexagon AB**, I operated at the intersection of AI and Data Engineering. I designed and deployed discriminative AI frameworks, automated computer vision pipelines (YOLO), and engineered high-throughput streaming pipelines using Kafka and Snowflake to ingest millions of events daily. To ensure these models remained reliable at scale, I built automated MLOps pipelines using MLflow and Docker to slash production release cycles.
 
-Currently, I’m pursuing my Master’s in Data Science and Analytics at [Michigan State University](https://msu.edu/), where I’m deepening my expertise in AI model development and evaluation.
+Currently finishing my Master’s in Data Science & Analytics at **Michigan State University**, my focus is entirely on advanced AI model optimization and distributed computing.
 
-With a blend of engineering rigor and data science creativity, I’m driven to solve complex problems and create value at scale.
+I thrive on solving complex, scale-heavy problems. Whether it is tuning a computer vision model, architecting a real-time feature store, or automating a CI/CD pipeline for machine learning, I build AI systems that are fast, reliable, and commercially impactful.
+
+## My Core Stack
+
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <!-- Column 1 -->
+    <td width="50%" style="vertical-align: top; padding: 10px; border: none;">
+      <strong>🤖 AI & Deep Learning</strong>
+      <hr/>
+      <ul>
+        <li>YOLO</li>
+        <li>LSTMs</li>
+        <li>Computer Vision</li>
+        <li>Time-Series Anomaly Detection</li>
+      </ul>
+    </td>
+    <!-- Column 2 -->
+    <td width="50%" style="vertical-align: top; padding: 10px; border: none;">
+      <strong>⚙️ MLOps & Production</strong>
+      <hr/>
+      <ul>
+        <li>MLflow</li>
+        <li>Docker</li>
+        <li>Azure DevOps</li>
+        <li>GitHub Actions / Terraform</li>
+      </ul>
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <!-- Column 3 -->
+    <td width="50%" style="vertical-align: top; padding: 10px; border: none;">
+      <strong>📊 Data Engineering</strong>
+      <hr/>
+      <ul>
+        <li>Kafka</li>
+        <li>Snowflake / dbt</li>
+        <li>Apache Airflow</li>
+        <li>PySpark / Databricks</li>
+      </ul>
+    </td>
+    <!-- Column 4 -->
+    <td width="50%" style="vertical-align: top; padding: 10px; border: none;">
+      <strong>🐍 Core Languages & Stats</strong>
+      <hr/>
+      <ul>
+        <li>Python / SQL</li>
+        <li>PyTorch</li>
+        <li>Pandas / NumPy</li>
+        <li>SciPy / Statsmodels</li>
+      </ul>
+    </td>
+  </tr>
+</table>

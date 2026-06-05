@@ -10,7 +10,7 @@
     - name: Linkedin
       value: <a href="https://www.linkedin.com/in/ajaydevnarathmeethal/">www.linkedin.com/in/ajaydevnarathmeethal</a>
     - name: Summary
-      value: I am a Data Scientist focusing on Artificial Intelligence and cloud framework to solve business solutions.
+      value: I am a Data Scientist focusing on Artificial Intelligence and cloud framework to solve business problems.
 
 - title: Professional Experience
   type: time_table
@@ -20,32 +20,36 @@
       year: "Jul 2025 - <br>Aug 2025"
       location: East Lansing, MI
       description:
-        - Transformed complex, unstructured data by executing a multi-step process that included cleaning, standardizing, and merging career center engagement and job offer data to establish a clean foundation for advanced analytics.
-        - Performed in-depth analysis of cleaned student data, <b>uncovering key trends in student engagement, correlations between career center engagement and job offers to provide strategic insights for future program design.</b>
-        - <b>Created data visualizations using Seaborn and developed a presentation deck</b> to effectively communicate key analysis results and strategic recommendations to higher management.
+        - Applied K-means clustering analysis to student demographic and behavioral data to identify low-engagement student segments, enabling targeted outreach programs.
+        - Cleaned and analyzed multi-source student datasets to uncover key correlations between career center engagement and job offer velocity.
+        - Developed automated data cleaning workflows and built interactive visualizations using Seaborn to communicate strategic program recommendations to executive leadership.
 
-    - title: Sr. Data Analyst 
+    - title: Sr. Data Engineer & Analyst 
       institution: Hexagon AB
       year: 2020-2024
       location: Hyderabad, India
       description:
-      - Wrote advanced T-SQL queries to efficiently extract, transform, and analyze large datasets from Azure Data Lake storage cloud, for driving actionable insights on and <b>enhancing reporting processes and efficiency by 43%.</b>
-      - <b>Implemented robust data quality checks</b> to detect anomalies and null values, ensuring data integrity across all sources.
-      - Optimized SQL queries and indexing strategies on PostgreSQL and Redshift, <b>improving database performance by 27% and reducing costs by estimated $900 per month.</b>
-      - Utilized advanced SQL techniques including indexing, query plan analysis, and table partitioning to <b>significantly enhance query performance and reduce execution time by 32% when working with large-scale datasets containing over 10 million rows.</b>
-      - <b>Developed automated scripts using Python</b> to streamline data cleaning and preprocessing of large-scale datasets exceeding 10 million records, <b>significantly improving data integrity and reducing manual effort by 54%.</b>
-      - Utilized Pandas in conjunction with Matplotlib and Seaborn to conduct detailed exploratory data analysis (EDA), uncovering key trends and producing insightful visual summaries of business metrics for impactful stakeholder reporting.
+        - Built a discriminative AI framework for HxGN APM to allow domain engineers to visually deploy custom anomaly detection models, integrating with a 200+ model Asset Twin Library and cutting deployment time by 60%.
+        - Implemented YOLO-based object detection in HxGN APM to automate surface inspections, reducing manual review time by 40% while maintaining 95%+ detection accuracy.
+        - Developed and deployed distributed failure prediction models using PySpark on Databricks, processing 1TB+ of historical sensor data to reduce unplanned downtime by 18%.
+        - Architected an MLOps pipeline using MLflow for versioning and tracking, integrating Azure DevOps and Docker to decrease production release times by 65%.
+        - Built a real-time customer health scoring system using logistic regression on streamed Salesforce data, reducing account churn by 22% in the first year.
+        - Executed cohort analysis and A/B testing on 1TB+ of sensor logs using Python (SciPy/Statsmodels), cutting critical alert response times (MTTR) by 45 minutes.
+        - Architected and optimized 30+ dbt models in Snowflake using incremental logic and clustering keys, reducing monthly compute costs by 28% ($18K saved).
+        - Built a real-time analytics pipeline using Kafka, Snowflake Connector, and Snowpipe Streaming to ingest 2M events/day with under 15-minute end-to-end latency.
 
-
-    - title: Project Management Engineer
+    - title: Analytics Engineer
       institution: Larsen & Toubro	Ltd.
       year: 2019 - 2020
       location: Coimbatore, India
       description:
-        - Created interactive Power BI dashboards by integrating Excel and SQL data from supply chain and production teams, uncovering downtime trends and <b>contributing to a 26% improvement in overall operational efficiency through data-driven insights.</b>
-        - Developed and implemented 15+ Power Automate workflows on SharePoint, streamlining repetitive tasks like document approvals and saving an estimated 200 hours per month across multiple departments.
-        - Implemented an automated, collaborative tracking system for raw materials and components in valve production, <b>streamlining end-to-end supply chain operations and reducing wait times by 31% through enhanced cross-functional visibility.</b>
-
+        - Developed and deployed an LSTM time-series forecasting model using CNC machine sensor data, achieving 91% failure prediction accuracy and saving $430K annually.
+        - Designed and deployed an ARIMA-based demand forecasting model enhanced with regression techniques, improving forecast accuracy by 19% and freeing $150K in working capital.
+        - Applied statistical process control (SPC) and logistic regression to root-cause production defects, delivering corrective actions that reduced valve leakage by 18% in three months.
+        - Built automated ETL pipelines using Python and SQL to extract transactional data from SAP S/4HANA into Azure SQL, reducing manual reporting by 25 hours/month.
+        - Designed a star schema data model in Power BI integrating SAP ERP, warehouse logs, and procurement data, improving reporting accuracy by 40% and reducing query runtimes by 60%.
+        - Optimized slow-performing Power BI dashboards by redesigning complex DAX calculations and data relationships, reducing load times from 30 seconds to under 5 seconds.
+        - Standardized data definitions and engineered automated data validation scripts within SAP ERP, increasing master data integrity by 30% across logistics modules.
 
 - title: Education
   type: time_table
@@ -56,11 +60,10 @@
       location: East Lansing, MI
       description:   
         - >     
-          <code>Principal Component Analysis</code> |
-          <code>Convolutional Neural Networks</code> |
           <code>RAG</code> |
-          <code>Python</code>|
-          <code>SQL</code>
+          <code>Statistic modelling</code> |
+          <code>Principal Component Analysis</code> |
+          <code>Neural Networks</code> |
     - title: Bachelog of Technology - Mechanincal Engineering
       institution: National Institute of Technology Karnataka
       year: May 2019
@@ -79,7 +82,7 @@
       year: 2025
       description: Automatic License Plate Recognition (ALPR) System for live video using OpenCV
     - title: <a href="https://github.com/AjaydevNarathmeethal/Credit-Card-Fraud-Detection/">Credit Card fraud detection</a>
-      year: 2025
+      year: 2024
       description: System to detect fraudulant credit card tranasactions.   
 
 - title: Certifications
